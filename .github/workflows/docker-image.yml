@@ -30,10 +30,12 @@ jobs:
     - name: Build Docker Image
       run: |
           docker build -t snatera/docker-graphql:0.0.2 .
+          docker build -t snatera/docker-graphql:latest .
       
     - name: Push Docker Image
       run: |
           docker push snatera/docker-graphql:0.0.2
+          docker push snatera/docker-graphql:latest
 
   
           
