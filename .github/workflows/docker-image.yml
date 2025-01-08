@@ -33,7 +33,7 @@ jobs:
       
     - name: Push Docker Image
       run: |
-          docker push snatera/docker-graphql:0.0.1 .
+          docker push snatera/docker-graphql:0.0.1
 
   
           
